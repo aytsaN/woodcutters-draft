@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prodigy Light</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="wpapper-landing show" id="wpapperLanding">
+    <h1>Woodcutter VS Zombies</h1>
+    <img src="" alt="">
+    <div class="btn btn-start" id="btnStart">Start The Game</div>
+
+</section>
+
+<section class="wrapper-character " id="wrapperCharacter">
+    <aside>
+        <div class="character-player" id="characterPlayer">
+            <img src="assets/img/player-1/hair.png" alt="" class="plr player-hair" id="player-hair">
+            <img src="assets/img/player-1/head.png" alt="" class="plr player-head" id="player-head">
+            <img src="assets/img/player-1/rightArm.png" alt="" class="plr player-rightArm" id="player-rightArm">
+            <img src="assets/img/player-1/torso.png" alt="" class="plr player-torso" id="player-torso">
+            <img src="assets/img/player-1/leftArm.png" alt="" class="plr player-leftArm" id="player-leftArm">
+            <img src="assets/img/player-1/legs.png" alt="" class="plr player-legs" id="player-legs">
+        </div>
+        <div class="btn-play" id="btnPlay">защищать лес</div>
+    </aside>
+    <div class="setting" id="setting">
+        <div class="game-heading">
+            <p>дровосеки</p>
+            <p>vs зомби</p>
+        </div>
+        <div class="info">
+            <lable class="setting-txt">Назови себя</lable>
+            <input type="text" class="setting-input" id="settingInput" placeholder="ТУТ">
+            <div class="sexes" id="sexes">
+                <p class="sexes-heading">Ты предвадитель</p>
+                <label for="men">
+                    <input name="sex" type="radio" id="men" value="1" checked>мальчишек
+                </label>
+                <label for="women">
+                    <input name="sex" type="radio" id="women" value="2">девчонок
+                </label>
+            </div>
+        </div>
+    </div>
+    <audio src="assets/audio/bgm-character.ogg" id="bgmCharacter"></audio>
+</section>
+
+<section class="wrapper-fields " id="wrapperFields">
+    <div class="life-bars">
+        <div class="player-bar">
+            <p class="player-name" id="playerName">hghj</p>
+            <div class="bar player-life green">
+                <span style="width: 100%"></span>
+            </div>
+        </div>
+        <div class="zombie-bar">
+            <p class="zombie-name" id="zombieName">hgghj</p>
+            <div class="bar zombie-life z-green">
+
+                <span style="width: 100%"></span>
+            </div>
+        </div>
+    </div>
+    <div class="battle-field">
+        <div class="rival player" id="player">
+            <!--<img src="assets/img/player-1/hair.png" alt="" class="plr player-hair" id="player-hair">-->
+            <!--<img src="assets/img/player-1/head.png" alt="" class="plr player-head" id="player-head">-->
+            <!--<img src="assets/img/player-1/rightArm.png" alt="" class="plr player-rightArm" id="player-rightArm">-->
+            <!--<img src="assets/img/player-1/torso.png" alt="" class="plr player-torso" id="player-torso">-->
+            <!--<img src="assets/img/player-1/leftArm.png" alt="" class="plr player-leftArm" id="player-leftArm">-->
+            <!--<img src="assets/img/player-1/legs.png" alt="" class="plr player-legs" id="player-legs">-->
+        </div>
+        <div class="weapon-path" id="weaponPath"></div>
+        <div class="rival zombie" id="zombie">
+            <img src="assets/img/zombie/zombie-hair-3.png" alt="" class="zombie-hair" id="zombieHair">
+            <img src="assets/img/zombie/zombie-head-3.png" alt="" class="zombie-head" id="zombie-head">
+            <img src="assets/img/zombie/zombie-rightArm-3.png" alt="" class="zombie-rightArm" id="zombie-rightArm">
+            <img src="assets/img/zombie/zombie-torso-3.png" alt="" class="zombie-torso" id="zombie-torso">
+            <img src="assets/img/zombie/zombie-leftArm-3.png" alt="" class="zombie-leftArm" id="zombie-leftArm">
+            <img src="assets/img/zombie/zombie-legs-3.png" alt="" class="zombie-legs" id="zombie-legs">
+        </div>
+    </div>
+    <div class="footnote"></div>
+</section>
+<script src="js/scripts.js"></script>
+</body>
+</html>
